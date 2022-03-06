@@ -15,7 +15,7 @@ const Oilprod = () => {
         
      useEffect(() => {
          async function getData() {
-             const response = await fetch("https://raw.githubusercontent.com/JosepAnSabate/dades-oil-world-production/main/df_oil_year.csv")
+             const response = await fetch("https://raw.githubusercontent.com/JosepAnSabate/React_basics/main/dades_csv/df_gas_2019.csv")
              const reader = response.body.getReader()
              const result = await reader.read() // raw array
              const decoder = new TextDecoder('utf-8')
@@ -41,16 +41,16 @@ const Oilprod = () => {
           getData()
     },[])
     
-    // console.log('EventData:', eventData);
+     //console.log('EventData:', eventData);
     // console.log('CountriesData:', countriesData);
 
-    console.log(countriesData.length, countriesData);
+    //console.log(countriesData.length, countriesData);
     
 
      for (let i = 0; i < countriesData.length; i++) {
 
          const mapCountry = countriesData[i];
-         const oilCountry = eventData.find((eventData) =>
+         const gasCountry = eventData.find((eventData) =>
          eventData.Code === mapCountry.properties.ISO_A3);  // find first match
 
          mapCountry.properties.confirmed = 0;
@@ -66,14 +66,14 @@ const Oilprod = () => {
             }
         }
 
-          if(oilCountry != null //|| oilCountry != 'NaN'
+          if(gasCountry != null //|| oilCountry != 'NaN'
               ){
-             const confirmed = Number(oilCountry.oilpr_milbb);
+             const confirmed = Number(gasCountry.gas_milio_m3);
                   mapCountry.properties.confirmed = confirmed;
                   mapCountry.properties.confirmedText = confirmed;
              }
               setCountryColor(mapCountry)
-              console.log(oilCountry);
+              //console.log(oilCountry);
      }
 
     

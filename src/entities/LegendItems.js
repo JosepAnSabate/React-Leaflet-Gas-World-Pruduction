@@ -2,39 +2,39 @@ import LegendItem from "./LegendItem";
 
 const legendItems = [
     new LegendItem(
-        "+ 3000 Mbb", // tag
-        "#331a00",    //color
-        (quantity) => quantity >= 3000,
+        "+ 500 Bm3/Y", // tag
+        "#000033",    //color
+        (quantity) => quantity >= 500000, // en Mm3
         "white"  // text color
     ),
-    new LegendItem(
-        "1000 - 3000",
-        "#663300",
-        (quantity) => quantity >= 1000 && quantity <= 3000,
-        "white"  // text color
-    ),
-    new LegendItem(
-        "500 - 1000",
-        "#994d00",
-        (quantity) => quantity >= 500 && quantity <= 1000,
-        "white"  // text color
-    ), 
     new LegendItem(
         "100 - 500",
-        "#cc6600",
-        (quantity) => quantity >= 100 && quantity <= 500,
+        "#0000b3",
+        (quantity) => quantity >= 100000 && quantity <= 500000,
+        "white"  // text color
     ),
     new LegendItem(
         "50 - 100",
-        "#ff9933",
-        (quantity) => quantity >= 50 && quantity <= 100,
+        "#1a1aff",
+        (quantity) => quantity >= 50000 && quantity <= 100000,
+        "white"  // text color
+    ), 
+    new LegendItem(
+        "15 - 50",
+        "#6666ff",
+        (quantity) => quantity >= 25000 && quantity <= 50000,
     ),
     new LegendItem(
-        "5 - 50",
-        "#ffcc99",
-        (quantity) => quantity >= 5 && quantity <= 50,
+        "10 - 25",
+        "#b3b3ff",
+        (quantity) => quantity >= 10000 && quantity <= 25000,
     ),
-    new LegendItem("-5 Mbb", "#ffffff", (quantity) => true)
+    new LegendItem(
+        "1 - 10",
+        "#e6e6ff",
+        (quantity) => quantity >= 1000 && quantity <= 10000,
+    ),
+    new LegendItem("-1 Bm3/Y", "#ffffff", (quantity) => true)
 
 ];
 
