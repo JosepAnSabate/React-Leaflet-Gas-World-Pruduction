@@ -1,8 +1,8 @@
 {
-  "name": "leaflet_api_countries_oil_hooks",
+  "name": "react_leaflet_map",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JosepAnSabate.github.io/React-Leaflet-Gas-World-Pruduction",
+  "homepage": "http://JosepAnSabate.github.io/react_leaflet_map",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
