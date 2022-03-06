@@ -2,7 +2,7 @@
   "name": "leaflet_api_countries_oil_hooks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://JosepAnSabate.github.io/React-Leaflet-World-production",
+  "homepage": "http://JosepAnSabate.github.io/React-Leaflet-World-Production",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.3",
