@@ -43,10 +43,13 @@ const OilMap = ({countries}) => {
         <p className='text-info-legend center-text'>1 Mm3 =  1,000,000 m3</p>
         
         <div className='bottom-container-info-legend'>
-        <p className='source-info-legend'><a href="https://github.com/JosepAnSabate/React-Leaflet-World-Oil-Production-Deployment">Code</a></p>
+        <p className='source-info-legend'><a href="https://github.com/JosepAnSabate/React-Leaflet-Gas-World-Pruduction">Code</a></p>
             <p className='source-info-legend'>Source: <a href="https://ourworldindata.org/grapher/oil-production-by-country">OurWorldinData</a></p>
         </div>
         </div>     
+    <div>
+        
+    </div>
          <GeoJSON style={mapStyle} data={countries}  onEachFeature={oneEchCountry}  />  
     </MapContainer> )
 }
