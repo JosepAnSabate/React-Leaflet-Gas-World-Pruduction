@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react_leaflet_map/static/css/main.3d1ca88e.css",
-    "main.js": "/react_leaflet_map/static/js/main.cbb02b7b.js",
-    "static/js/787.558e16a3.chunk.js": "/react_leaflet_map/static/js/787.558e16a3.chunk.js",
-    "index.html": "/react_leaflet_map/index.html",
-    "main.3d1ca88e.css.map": "/react_leaflet_map/static/css/main.3d1ca88e.css.map",
-    "main.cbb02b7b.js.map": "/react_leaflet_map/static/js/main.cbb02b7b.js.map",
-    "787.558e16a3.chunk.js.map": "/react_leaflet_map/static/js/787.558e16a3.chunk.js.map"
+    "main.css": "/React-Leaflet-Gas-World-Pruduction/static/css/main.3d1ca88e.css",
+    "main.js": "/React-Leaflet-Gas-World-Pruduction/static/js/main.923a6d37.js",
+    "static/js/787.558e16a3.chunk.js": "/React-Leaflet-Gas-World-Pruduction/static/js/787.558e16a3.chunk.js",
+    "index.html": "/React-Leaflet-Gas-World-Pruduction/index.html",
+    "main.3d1ca88e.css.map": "/React-Leaflet-Gas-World-Pruduction/static/css/main.3d1ca88e.css.map",
+    "main.923a6d37.js.map": "/React-Leaflet-Gas-World-Pruduction/static/js/main.923a6d37.js.map",
+    "787.558e16a3.chunk.js.map": "/React-Leaflet-Gas-World-Pruduction/static/js/787.558e16a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d1ca88e.css",
-    "static/js/main.cbb02b7b.js"
+    "static/js/main.923a6d37.js"
   ]
 }
